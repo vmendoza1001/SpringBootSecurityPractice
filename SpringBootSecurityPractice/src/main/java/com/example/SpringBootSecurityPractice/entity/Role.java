@@ -38,6 +38,6 @@ public class Role {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Role{" + "id=" + id + ", name='" + name + '\'' + '}';
     }
 }

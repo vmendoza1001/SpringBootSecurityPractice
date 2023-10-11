@@ -71,7 +71,7 @@ public class UserServiceImpl implements UserService{
                authorities);
     }
 
-    private Collection<? extends GrantedAuthority> mapRolesToAuthorities(Collection<Role> roles) {
+    private Collection<SimpleGrantedAuthority> mapRolesToAuthorities(Collection<Role> roles) {
        Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
 
        for (Role tempRole : roles) {
