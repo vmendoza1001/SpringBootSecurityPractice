@@ -4,6 +4,6 @@ import com.example.SpringBootSecurityPractice.entity.Role;
 
 public interface RoleDao {
 
-    public Role findRoleByUsername(String theRoleName);
+    public Role findRoleByName(String theRoleName);
 
 }
